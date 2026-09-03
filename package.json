@@ -1,0 +1,30 @@
+{
+  "name": "analise-de-dados-financeiros",
+  "version": "1.0.0",
+  "description": "Aplicação para análise e visualização de dados financeiros desenvolvida com TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "server": "serve . -p 3000",
+    "dev": "concurrently \"npm run watch\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giosantos99/analise-de-dados-financeiros.git"
+  },
+  "keywords": [],
+  "author": "Giovanna Santos de Souza",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/giosantos99/analise-de-dados-financeiros/issues"
+  },
+  "homepage": "https://github.com/giosantos99/analise-de-dados-financeiros#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.5",
+    "serve": "^14.2.6",
+    "typescript": "^7.0.2"
+  }
+}
