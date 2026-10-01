@@ -1,7 +1,7 @@
-import { CountList } from './Modules/countBy.js'
-import Estatisticas from './Modules/Estatisticas.js'
-import fetchData from './Modules/fetchData.js'
-import normalizarTransacao from './Modules/normalizarTransacao.js'
+import { CountList } from './modules/countBy.js'
+import Estatisticas from './modules/estatisticas.js'
+import fetchData from './modules/fetchData.js'
+import normalizarTransacao from './modules/normalizarTransacao.js'
 
 async function handleData () {
   const data = await fetchData<TransacaoAPI[]>('https://api.origamid.dev/json/transacoes.json?')
