@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
+    "build": "tsc && node src/scripts/copy-assets.mjs",
     "watch": "tsc -w",
     "server": "serve . -p 3000",
     "dev": "concurrently \"npm run watch\" \"npm run server\""
