@@ -4,6 +4,8 @@ Aplicação desenvolvida em HTML, CSS e TypeScript para análise e visualizaçã
 
 O projeto realiza a normalização dos dados recebidos, exibe as transações em uma tabela e calcula diferentes estatísticas, como valor total das transações, formas de pagamento, status e dia da semana com maior número de vendas.
 
+🌐 **Acesse a aplicação:** [Análise de Dados Financeiro](https://analise-de-dados-financeiros.vercel.app/)
+
 ![analise-dados](preview/preview-analise-dados.png)
 
 ## 📊 Funcionalidades
